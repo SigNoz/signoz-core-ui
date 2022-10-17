@@ -1,7 +1,7 @@
 import React from "react";
 
 import getIcons from "asset/icons";
-import { useIsDesktop } from "hook/useIsDesktop";
+import { useIsDesktop } from "../../hook/useIsDesktop";
 
 import Link from "next/link";
 import { useCallback, useState } from "react";
