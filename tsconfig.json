@@ -5,7 +5,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "declaration": true,
     "declarationDir": "lib",
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -15,6 +15,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowUmdGlobalAccess": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
     "noEmit": true,
     "jsx": "react",
     "baseUrl": "./src"
