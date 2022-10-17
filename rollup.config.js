@@ -5,6 +5,7 @@ const postcss = require("rollup-plugin-postcss");
 const json = require("@rollup/plugin-json");
 
 const packageJson = require("./package.json");
+const tsconfigDefaults = require("./tsconfig.json");
 
 module.exports = {
   input: "src/index.ts",
@@ -23,7 +24,10 @@ module.exports = {
   plugins: [
     peerDepsExternal(),
     commonjs(),
-    typescript({}),
+    typescript({
+      tsconfigDefaults,
+      tsconfig: "tsconfig.json",
+    }),
     postcss({
       extensions: [".css"],
     }),

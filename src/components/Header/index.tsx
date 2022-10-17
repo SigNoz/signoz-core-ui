@@ -5,7 +5,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { headerElements, leftItems, rightItems } from "./config";
-import { useIsDesktop } from "hooks/useIsDesktop";
+import { useIsDesktop } from "hook/useIsDesktop";
 import { useQuery } from "@tanstack/react-query";
 import getRepoInfo from "api/getRepoInfo";
 
