@@ -1,4 +1,4 @@
-import { ErrorStatusCode, SuccessStatusCode } from "types/common";
+import { ErrorStatusCode, SuccessStatusCode } from "../../types/common";
 
 export interface ErrorResponse {
   statusCode: ErrorStatusCode;

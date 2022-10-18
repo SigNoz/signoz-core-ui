@@ -1,11 +1,11 @@
 import React from "react";
-import Title from "components/Title";
-import EmailInput from "components/Input";
-import Button from "components/Button";
-import Card from "components/Card";
+import Title from "../../components/Title";
+import EmailInput from "../../components/Input";
+import Button from "../../components/Button";
+import Card from "../../components/Card";
 import { useCallback, useState } from "react";
 import { isValidEmail } from "./utils";
-import sendSubscribeEmail from "api/sendSubscribeEmail";
+import sendSubscribeEmail from "../../api/sendSubscribeEmail";
 
 const SubscribeToUpdates = () => {
   const [email, setEmail] = useState<string>("");

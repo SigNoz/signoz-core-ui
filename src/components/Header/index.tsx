@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react";
 import cx from "classnames";
-import getIcons from "asset/icons";
+import getIcons from "../../asset/icons";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
@@ -8,7 +8,7 @@ import { headerElements, leftItems, rightItems } from "./config";
 import { useIsDesktop } from "../../hook/useIsDesktop";
 
 const PropertyControlledComponent = dynamic(
-  () => import("components/PropertyControllComponent"),
+  () => import("../../components/PropertyControllComponent"),
   { ssr: false }
 );
 

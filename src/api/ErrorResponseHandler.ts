@@ -1,6 +1,6 @@
 import { AxiosError } from "axios";
-import { ErrorResponse } from "types/api";
-import { ErrorStatusCode } from "types/common";
+import { ErrorResponse } from "../types/api";
+import { ErrorStatusCode } from "../types/common";
 
 export function ErrorResponseHandler(error: AxiosError): ErrorResponse {
   const { response, request } = error;

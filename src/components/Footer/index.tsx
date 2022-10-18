@@ -1,7 +1,7 @@
 import React from "react";
 
-import getIcons from "asset/icons";
-import SubscribeToUpdates from "components/SubscribeToUpdates";
+import getIcons from "../../asset/icons";
+import SubscribeToUpdates from "../../components/SubscribeToUpdates";
 import getSubLinks from "./config";
 import Link from "./Link";
 
