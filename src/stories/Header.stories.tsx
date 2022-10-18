@@ -11,7 +11,10 @@ export default {
   },
 } as ComponentMeta<typeof Header>;
 
-const Template: ComponentStory<typeof Header> = () => <Header />;
+const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
-export const Header1 = Template.bind({});
-Header1.args = {};
+export const Header2 = Template.bind({});
+Header2.args = {
+  repoCount: 2,
+  onGithubClickHandler: () => {},
+};

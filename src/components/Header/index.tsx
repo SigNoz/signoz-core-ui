@@ -6,19 +6,17 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { headerElements, leftItems, rightItems } from "./config";
 import { useIsDesktop } from "../../hook/useIsDesktop";
-import { useQuery } from "@tanstack/react-query";
-import getRepoInfo from "api/getRepoInfo";
 
 const PropertyControlledComponent = dynamic(
   () => import("components/PropertyControllComponent"),
   { ssr: false }
 );
 
-const Header = (): JSX.Element => {
+const Header = ({
+  onGithubClickHandler,
+  repoCount,
+}: HeaderProps): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false);
-  const repoInfoResult = useQuery({
-    queryFn: getRepoInfo,
-  });
   const { push } = useRouter();
 
   const onClickLogoHandler = useCallback(() => {
@@ -35,12 +33,6 @@ const Header = (): JSX.Element => {
   const router = useRouter();
 
   const isDesktop = useIsDesktop(980);
-
-  const onGithubClickHandler = () => {
-    window.open(repoInfoResult.data?.payload?.svn_url, "_blank");
-  };
-
-  const repoCount = repoInfoResult.data?.payload?.stargazers_count || "-";
 
   return (
     <header
@@ -153,5 +145,10 @@ const Header = (): JSX.Element => {
     </header>
   );
 };
+
+export interface HeaderProps {
+  onGithubClickHandler: VoidFunction;
+  repoCount: number;
+}
 
 export default Header;
