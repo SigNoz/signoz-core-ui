@@ -1,0 +1,12 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "3.8.0"
+  }
+}
