@@ -5,6 +5,6 @@ packages/token/build.js
 packages/token/config.json
 
 .gitignore
-larna.json
+lerna.json
 nx.json
 yarn.lock
