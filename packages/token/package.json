@@ -1,5 +1,5 @@
 {
-  "name": "rajat-styled-token",
+  "name": "token",
   "version": "1.0.2",
   "main": "build/scss/_variables.scss",
   "scripts": {

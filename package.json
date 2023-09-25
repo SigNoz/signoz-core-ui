@@ -1,6 +1,7 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@signozhq/ui-core",
+  "private": false,
+  "version": "0.0.1",
   "workspaces": [
     "packages/*"
   ],
