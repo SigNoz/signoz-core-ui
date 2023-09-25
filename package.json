@@ -1,9 +1,13 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@signozhq/ui-core",
+  "private": false,
+  "version": "0.0.3",
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },  
   "dependencies": {},
   "devDependencies": {
     "lerna": "7.2.0"
