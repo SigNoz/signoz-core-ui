@@ -1,6 +1,6 @@
 const StyleDictionary = require('style-dictionary');
 const fs = require('fs-extra');
-const webPath = `build/dist/`;
+const webPath = `build/tokens/`;
 fs.removeSync(webPath);
 
 /**
