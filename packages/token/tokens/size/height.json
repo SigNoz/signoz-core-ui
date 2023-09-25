@@ -1,0 +1,18 @@
+{
+    "size": {
+        "height": {
+            "base": {
+                "value": "2"
+            },
+            "extraSmall": {
+                "value": "1"
+            },
+            "small": {
+                "value": "1.5"
+            },
+            "large": {
+                "value": "2.5"
+            }
+        }
+    }
+}

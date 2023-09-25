@@ -1,0 +1,12 @@
+{
+    "weight": {
+        "font": {
+            "normal": {
+                "value": "400"
+            },
+            "strong": {
+                "value": "600"
+            }
+        }
+    }
+}

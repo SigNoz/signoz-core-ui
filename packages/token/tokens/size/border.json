@@ -1,0 +1,18 @@
+{
+    "size": {
+        "borderRadius": {
+            "base": {
+                "value": "0.375"
+            },
+            "extraSmall": {
+                "value": "0.125"
+            },
+            "small": {
+                "value": "0.25"
+            },
+            "large": {
+                "value": "0.5"
+            }
+        }
+    }
+}

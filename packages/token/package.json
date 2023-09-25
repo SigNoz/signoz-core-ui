@@ -1,8 +1,9 @@
 {
-  "name": "token",
-  "version": "1.0.0",
+  "name": "rajat-styled-token",
+  "version": "1.0.2",
+  "main": "build/scss/_variables.scss",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node build.js"
   },
   "author": "",
   "license": "ISC",
