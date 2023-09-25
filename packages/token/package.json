@@ -1,6 +1,6 @@
 {
-  "name": "rajat-styled-token",
-  "version": "1.0.2",
+  "name": "signoz-styled-token",
+  "version": "1.0.1",
   "main": "build/scss/_variables.scss",
   "scripts": {
     "build": "node build.js"
