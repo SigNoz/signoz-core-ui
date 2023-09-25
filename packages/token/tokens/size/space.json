@@ -1,0 +1,55 @@
+{
+    "size": {
+        "space": {
+            "padding": {
+                "base": {
+                    "value": "1"
+                },
+                "extraExtraSmall": {
+                    "value": "0.25"
+                },
+                "extraSmall": {
+                    "value": "0.5"
+                },
+                "small": {
+                    "value": "0.75"
+                },
+                "medium": {
+                    "value": "1.25"
+                },
+                "large": {
+                    "value": "1.5"
+                },
+                "extraLarge": {
+                    "value": "2"
+                },
+                "extraExtraLarge": {
+                    "value": "3"
+                }
+            },
+            "margin": {
+                "base": {
+                    "value": "1"
+                },
+                "small": {
+                    "value": "0.75"
+                },
+                "extraSmall": {
+                    "value": "0.5"
+                },
+                "extraExtraSmall": {
+                    "value": "0.25"
+                },
+                "large": {
+                    "value": "1.5"
+                },
+                "extraLarge": {
+                    "value": "2"
+                },
+                "extraExtraLarge": {
+                    "value": "3"
+                }
+            }
+        }
+    }
+}
