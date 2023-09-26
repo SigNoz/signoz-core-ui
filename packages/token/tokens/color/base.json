@@ -2,13 +2,15 @@
   "color": {
     "base": {
       "gray": {
-        "light" : { "value": "#CCCCCC", "darkValue": "#EDEDED" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
+        "light": {
+          "value": "rgba(255, 255, 255, 0.45)"
+        }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" },
-      "navyblue": { "value": "#1668DC" }
+      "navyblue": {
+        "light": {
+          "value": "rgba(22, 104, 220, 1)"
+        }
+      }
     }
   }
 }
