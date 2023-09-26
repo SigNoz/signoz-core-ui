@@ -1,7 +1,7 @@
 {
   "size": {
     "font": {
-      "normal": {
+      "regular": {
         "value": "0.8",
         "comment": "the normal size of the font"
       },
@@ -18,7 +18,7 @@
         "comment": "the large size of the font"
       },
       "base" : {
-        "value": "{size.font.normal.value}",
+        "value": "{size.font.regular.value}",
         "comment": "the base size of the font"
       },
       "heading1": {
