@@ -3,6 +3,13 @@ const fs = require('fs-extra');
 const webPath = `build/tokens/`;
 fs.removeSync(webPath);
 
+function removeTitle(dictionary) {
+  dictionary.allTokens = dictionary.allTokens.map(token => {
+      token.name = token.name.substring(token.name.indexOf("-") + 1);
+      return token;
+  });
+}
+
 /**
  * This function will wrap a built-in format and replace `.value` with `.darkValue`
  * if a token has a `.darkValue`.
@@ -35,20 +42,30 @@ function darkFormatWrapper(format) {
       }
     });
 
+    removeTitle(dictionary);
     args.dictionary = dictionary;
-    console.log(StyleDictionary.format[format]({ ...args })
-    );
-
     // Use the built-in format but with our customized dictionary object
     // so it will output the darkValue instead of the value
     return StyleDictionary.format[format]({ ...args, dictionary })
   }
 }
 
+function lightFormatWrapper(format) {
+  return function (args) {
+    const dictionary = Object.assign({}, args.dictionary);
+    removeTitle(dictionary);
+    args.dictionary = dictionary;
+    return StyleDictionary.format[format]({ ...args, dictionary })
+  }
+}
+
+
+
 StyleDictionary.extend({
   // custom formats
   format: {
     scssDark: darkFormatWrapper(`scss/variables`),
+    scssLight: lightFormatWrapper(`scss/variables`),
   },
 
   source: [
@@ -61,7 +78,7 @@ StyleDictionary.extend({
       buildPath: webPath,
       files: [{
         destination: `variables.scss`,
-        format: `scss/variables`,
+        format: `scssLight`,
         options: {
           outputReferences: true
         }
