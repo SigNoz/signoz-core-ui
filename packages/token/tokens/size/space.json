@@ -1,55 +1,53 @@
 {
     "size": {
-        "space": {
-            "padding": {
-                "base": {
+            "p": {
+                "md": {
                     "value": "1"
                 },
-                "extraExtraSmall": {
+                "xxs": {
                     "value": "0.25"
                 },
-                "extraSmall": {
+                "xs": {
                     "value": "0.5"
                 },
-                "small": {
+                "sm": {
                     "value": "0.75"
                 },
-                "medium": {
+                "md": {
                     "value": "1.25"
                 },
-                "large": {
+                "lg": {
                     "value": "1.5"
                 },
-                "extraLarge": {
+                "xl": {
                     "value": "2"
                 },
-                "extraExtraLarge": {
+                "xxl": {
                     "value": "3"
                 }
             },
-            "margin": {
-                "base": {
+            "m": {
+                "md": {
                     "value": "1"
                 },
-                "small": {
+                "sm": {
                     "value": "0.75"
                 },
-                "extraSmall": {
+                "xs": {
                     "value": "0.5"
                 },
-                "extraExtraSmall": {
+                "xxs": {
                     "value": "0.25"
                 },
-                "large": {
+                "lg": {
                     "value": "1.5"
                 },
-                "extraLarge": {
+                "xl": {
                     "value": "2"
                 },
-                "extraExtraLarge": {
+                "xxl": {
                     "value": "3"
                 }
             }
         }
-    }
 }

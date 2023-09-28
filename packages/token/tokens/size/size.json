@@ -1,37 +1,34 @@
 {
     "size": {
-        "extraExtraLarge": {
+        "xxl": {
             "value": "3",
             "comment": "the extra extra large (XXL) size"
         },
-        "extraLarge": {
+        "xl": {
             "value": "2",
             "comment": "the extra large (XL) size"
         },
-        "large": {
+        "lg": {
             "value": "1.5",
             "comment": "the large (L) size"
         },
-        "medium": {
+        "md": {
             "value": "1.25",
             "comment": "the medium (M) size"
         },
-        "mediumSmall": {
+        "sm": {
             "value": "1",
             "comment": "the medium small (MS) size"
-        },
-        "base": {
-            "value": "{size.mediumSmall.value}"
         },
         "small": {
             "value": "0.75",
             "comment": "the small (S) size"
         },
-        "extraSmall": {
+        "xs": {
             "value": "0.5",
             "comment": "the extra small (XS) size"
         },
-        "extraExtraSmall": {
+        "xxs": {
             "value": "0.25",
             "comment": "the extra extra small (XXS) size"
         }

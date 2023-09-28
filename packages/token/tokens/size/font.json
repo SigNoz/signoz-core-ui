@@ -1,43 +1,39 @@
 {
   "size": {
     "font": {
-      "regular": {
+      "md": {
         "value": "0.8",
         "comment": "the normal size of the font"
       },
-      "small" : {
+      "sm" : {
         "value": "0.75",
         "comment": "the small size of the font"
       },
-      "large": {
+      "lg": {
         "value": "1",
         "comment": "the medium size of the font"
       },
-      "extraLarge" : {
+      "xl" : {
         "value": "1.25",
         "comment": "the large size of the font"
       },
-      "base" : {
-        "value": "{size.font.regular.value}",
-        "comment": "the base size of the font"
-      },
-      "heading1": {
+      "h1": {
         "value": "2.375",
         "comment": "the size of the heading 1"
       },
-      "heading2": {
+      "h2": {
         "value": "1.875",
         "comment": "the size of the heading 2"
       },
-      "heading3": {
+      "h3": {
         "value": "1.5",
         "comment": "the size of the heading 3"
       },
-      "heading4": {
+      "h4": {
         "value": "1.25",
         "comment": "the size of the heading 4"
       },
-      "heading5": {
+      "h5": {
         "value": "1",
         "comment": "the size of the heading 5"
       }
