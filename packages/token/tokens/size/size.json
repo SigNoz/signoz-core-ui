@@ -1,37 +1,58 @@
 {
     "size": {
-        "xxl": {
-            "value": "3",
-            "comment": "the extra extra large (XXL) size"
-        },
-        "xl": {
-            "value": "2",
-            "comment": "the extra large (XL) size"
-        },
-        "lg": {
-            "value": "1.5",
-            "comment": "the large (L) size"
-        },
-        "md": {
-            "value": "1.25",
-            "comment": "the medium (M) size"
-        },
-        "sm": {
-            "value": "1",
-            "comment": "the medium small (MS) size"
-        },
-        "small": {
-            "value": "0.75",
-            "comment": "the small (S) size"
-        },
-        "xs": {
-            "value": "0.5",
-            "comment": "the extra small (XS) size"
-        },
-        "xxs": {
-            "value": "0.25",
-            "comment": "the extra extra small (XXS) size"
+        "size": {
+            "12": {
+                "value": "3",
+                "comment": "48px"
+            },
+            "11": {
+                "value": "2.75",
+                "comment": "44px"
+            },
+            "10": {
+                "value": "2.5",
+                "comment": "40px"
+            },
+            "9": {
+                "value": "2.25",
+                "comment": "36px"
+            },
+            "8": {
+                "value": "2",
+                "comment": "32px"
+            },
+            "7": {
+                "value": "1.75px",
+                "comment": "28px"
+            },
+            "6": {
+                "value": "1.5",
+                "comment": "24px"
+            },
+            "5": {
+                "value": "1.25",
+                "comment": "20px"
+            },
+            "4": {
+                "value": "1",
+                "comment": "16px"
+            },
+            "3": {
+                "value": "0.75",
+                "comment": "12px"
+            },
+            "2": {
+                "value": "0.5",
+                "comment": "8px"
+            },
+            "1": {
+                "value": "0.25",
+                "comment": "4px"
+            },
+            "0": {
+                "value": "0",
+                "comment": "the zero (0) size"
+            }
         }
     }
-
 }

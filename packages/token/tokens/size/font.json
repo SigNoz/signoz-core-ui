@@ -17,6 +17,9 @@
         "value": "1.25",
         "comment": "the large size of the font"
       },
+      "xxl": {
+        "value": "1.5"
+      },
       "h1": {
         "value": "2.375",
         "comment": "the size of the heading 1"
