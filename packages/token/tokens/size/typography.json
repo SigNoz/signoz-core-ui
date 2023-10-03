@@ -1,0 +1,26 @@
+{
+    "size": {
+        "font": {
+            "h1": {
+                "value": "2.375",
+                "comment": "the size of the heading 1"
+              },
+              "h2": {
+                "value": "1.875",
+                "comment": "the size of the heading 2"
+              },
+              "h3": {
+                "value": "1.5",
+                "comment": "the size of the heading 3"
+              },
+              "h4": {
+                "value": "1.25",
+                "comment": "the size of the heading 4"
+              },
+              "h5": {
+                "value": "1",
+                "comment": "the size of the heading 5"
+              }
+        }
+    }
+}
