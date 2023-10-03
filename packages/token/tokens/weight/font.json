@@ -1,14 +1,16 @@
 {
     "font": {
-        "weight": {
-            "normal": {
-                "value": "400"
-            },
-            "medium": {
-                "value": "500"
-            },
-            "strong": {
-                "value": "600"
+        "font": {
+            "weight": {
+                "normal": {
+                    "value": "400"
+                },
+                "medium": {
+                    "value": "500"
+                },
+                "strong": {
+                    "value": "600"
+                }
             }
         }
     }
