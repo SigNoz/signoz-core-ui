@@ -1,44 +1,26 @@
 {
   "size": {
     "font": {
-      "md": {
-        "value": "0.8",
-        "comment": "the normal size of the font"
-      },
-      "sm" : {
-        "value": "0.75",
-        "comment": "the small size of the font"
-      },
-      "lg": {
-        "value": "1",
-        "comment": "the medium size of the font"
-      },
-      "xl" : {
-        "value": "1.25",
-        "comment": "the large size of the font"
-      },
-      "xxl": {
-        "value": "1.5"
-      },
-      "h1": {
-        "value": "2.375",
-        "comment": "the size of the heading 1"
-      },
-      "h2": {
-        "value": "1.875",
-        "comment": "the size of the heading 2"
-      },
-      "h3": {
-        "value": "1.5",
-        "comment": "the size of the heading 3"
-      },
-      "h4": {
-        "value": "1.25",
-        "comment": "the size of the heading 4"
-      },
-      "h5": {
-        "value": "1",
-        "comment": "the size of the heading 5"
+      "size": {
+        "md": {
+          "value": "0.8",
+          "comment": "the normal size of the font"
+        },
+        "sm": {
+          "value": "0.75",
+          "comment": "the small size of the font"
+        },
+        "lg": {
+          "value": "1",
+          "comment": "the medium size of the font"
+        },
+        "xl": {
+          "value": "1.25",
+          "comment": "the large size of the font"
+        },
+        "xxl": {
+          "value": "1.5"
+        }
       }
     }
   }
