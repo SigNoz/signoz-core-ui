@@ -1,1 +1,1 @@
-# signoz-components-library
+# Signoz component library
