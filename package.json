@@ -1,16 +1,17 @@
 {
   "name": "@signozhq/ui-core",
-  "private": false,
+  "private": true,
   "version": "0.0.6",
   "workspaces": [
     "packages/*"
   ],
   "publishConfig": {
     "access": "public"
-  },  
+  },
   "dependencies": {},
   "devDependencies": {
-    "lerna": "7.2.0"
+    "lerna": "7.2.0",
+    "storybook": "^7.6.4"
   },
   "scripts": {
     "build": "lerna run build",

@@ -2,7 +2,7 @@
   "name": "token",
   "version": "1.0.2",
   "main": "build/scss/_variables.scss",
-  "private": false,
+  "private": true,
   "scripts": {
     "build": "node build.js"
   },
