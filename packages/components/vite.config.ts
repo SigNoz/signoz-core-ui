@@ -10,7 +10,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "./node_modules/@signozhq/token/build/tokens/variables.scss";`,
+        additionalData: `@import "./node_modules/@signozhq/token/build/tokens/variables.scss"; @import "../src/_theme.scss";`,
       },
     },
   },

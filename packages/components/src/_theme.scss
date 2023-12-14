@@ -1,0 +1,19 @@
+@import './styles.module.scss';
+@import "./node_modules/@signozhq/token/build/tokens/variables.scss";
+
+:root {
+    --color-background: #{$ink-400};
+    --color-foreground: #{$vanilla-100};
+
+    --color-primary: #{$robin-500};
+    --color-primary-hover: #{$robin-400};
+
+    --color-secondary: #{$slate-400};
+    --color-secondary-hover: #{$slate-300};
+
+    --color-warning: #{$amber-500};
+    --color-warning-hover: #{$amber-400};
+
+    --color-danger: #{$cherry-500};
+    --color-danger-hover: #{$cherry-400};
+}

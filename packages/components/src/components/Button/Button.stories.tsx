@@ -17,5 +17,8 @@ export const Buttons = () => {
       {sizes.map(size => <Button variant={variant} size={size}>{variant} {size} Button</Button>)}
     </div>
     )}
+    <div style={{display: 'flex', gap: '1rem', marginBottom: '1rem', alignItems: 'baseline'}}>
+      {sizes.map(size => <Button variant='border' border='dashed' size={size}>border dashed Button</Button>)}
+    </div>
   </div>
 }

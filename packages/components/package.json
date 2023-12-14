@@ -16,6 +16,12 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/periscope.js",
+      "require": "./dist/periscope.js"
+    }
+  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/themes": "^2.0.2",
