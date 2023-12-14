@@ -7,6 +7,13 @@ import { libInjectCss } from "vite-plugin-lib-inject-css";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), libInjectCss(), dts({ include: ["src"] })],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./node_modules/@signozhq/token/build/tokens/variables.scss";`,
+      },
+    },
+  },
   build: {
     copyPublicDir: false,
     lib: {
