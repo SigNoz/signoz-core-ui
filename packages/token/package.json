@@ -2,7 +2,7 @@
   "name": "@signozhq/token",
   "version": "1.0.2",
   "main": "build/scss/_variables.scss",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "node build.js"
   },
