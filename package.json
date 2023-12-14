@@ -1,5 +1,5 @@
 {
-  "name": "@signozhq/ui-core",
+  "name": "signozhq",
   "private": true,
   "version": "0.0.6",
   "workspaces": [
