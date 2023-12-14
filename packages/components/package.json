@@ -18,11 +18,12 @@
   },
   "dependencies": {
     "@radix-ui/themes": "^2.0.2",
+    "@signozhq/token": "workspace:*",
+    "lucide-react": "^0.295.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.6.4",
-    "vite-plugin-dts": "^3.6.4",
-    "@signozhq/token": "workspace:*"
+    "vite-plugin-dts": "^3.6.4"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.1.1",
