@@ -1,7 +1,7 @@
 import { Theme } from "@radix-ui/themes";
 
-import "@radix-ui/themes/styles.css";
 import "../src/styles/index.scss";
+import "../src/styles.scss";
 
 export const decorators = [
   (Story) => (
