@@ -1,14 +1,16 @@
 {
-  "name": "token",
+  "name": "signoz-token",
   "version": "1.0.2",
-  "main": "build/scss/_variables.scss",
-  "private": false,
+  "main": "./build/variable.scss",
+  "style": "build/variable.scss",
+  "private": true,
   "scripts": {
     "build": "node build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^11.2.0",
     "style-dictionary": "3.8.0"
   }
 }

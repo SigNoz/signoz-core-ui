@@ -1,2 +1,4 @@
 node_modules/
 packages/token/build/
+yarn-error.log
+.yarn/*

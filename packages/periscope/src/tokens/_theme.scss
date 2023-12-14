@@ -1,0 +1,10 @@
+@use 'colors' as *;
+
+:root {
+  --color-background: #{$ink-500};
+  --color-foreground: #{$vanilla-100};
+  --color-default: #{$slate-200};
+
+  --color-primary: #{$robin-500};
+  --color-secondary: #{$slate-200};
+}

@@ -1,0 +1,219 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.3",
+  "deps": {
+    "@nrwl/cli": "15.9.3",
+    "dev": "^0.1.3",
+    "global": "^4.4.0",
+    "nx": "17.2.3",
+    "lerna": "7.2.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "signoz-theme": [
+        {
+          "file": "packages/theme-scss/_variable.module.scss",
+          "hash": "6376444959510735746"
+        },
+        {
+          "file": "packages/theme-scss/index.js",
+          "hash": "12540024524277909147"
+        },
+        {
+          "file": "packages/theme-scss/package.json",
+          "hash": "3239021400636386855",
+          "deps": [
+            "signoz-token"
+          ]
+        }
+      ],
+      "signoz-token": [
+        {
+          "file": "packages/token/.gitignore",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/token/README.md",
+          "hash": "10700373775842126962"
+        },
+        {
+          "file": "packages/token/build.js",
+          "hash": "11760119120492666353"
+        },
+        {
+          "file": "packages/token/config.json",
+          "hash": "14133641548177540712"
+        },
+        {
+          "file": "packages/token/package.json",
+          "hash": "17543379009814671873",
+          "deps": [
+            "npm:fs-extra"
+          ]
+        },
+        {
+          "file": "packages/token/tokens/color/base.json",
+          "hash": "3388158298035243913"
+        },
+        {
+          "file": "packages/token/tokens/color/font.json",
+          "hash": "3890298013480778602"
+        },
+        {
+          "file": "packages/token/tokens/size/border.json",
+          "hash": "16761813512806400911"
+        },
+        {
+          "file": "packages/token/tokens/size/font.json",
+          "hash": "8869329773616580466"
+        },
+        {
+          "file": "packages/token/tokens/size/size.json",
+          "hash": "1243435572372531608"
+        },
+        {
+          "file": "packages/token/tokens/size/typography.json",
+          "hash": "5182818165932747932"
+        },
+        {
+          "file": "packages/token/tokens/weight/font.json",
+          "hash": "1988486877912021381"
+        }
+      ],
+      "periscope": [
+        {
+          "file": "packages/periscope/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "packages/periscope/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "packages/periscope/.storybook/main.ts",
+          "hash": "16163247504488506868"
+        },
+        {
+          "file": "packages/periscope/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "packages/periscope/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "packages/periscope/package.json",
+          "hash": "1394056877305014481",
+          "deps": [
+            "signoz-theme",
+            "signoz-token"
+          ]
+        },
+        {
+          "file": "packages/periscope/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/periscope/src/App.scss",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "packages/periscope/src/App.tsx",
+          "hash": "1996733429438734604"
+        },
+        {
+          "file": "packages/periscope/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "packages/periscope/src/index.scss",
+          "hash": "6426066749737645899"
+        },
+        {
+          "file": "packages/periscope/src/main.tsx",
+          "hash": "30903126904663209"
+        },
+        {
+          "file": "packages/periscope/src/style.scss",
+          "hash": "16886053231128937866"
+        },
+        {
+          "file": "packages/periscope/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/periscope/tsconfig.json",
+          "hash": "14032556756270793734"
+        },
+        {
+          "file": "packages/periscope/tsconfig.node.json",
+          "hash": "8586866767247417612"
+        },
+        {
+          "file": "packages/periscope/vite.config.ts",
+          "hash": "7008402861428644331"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "17034971140556271463"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4995820113910082925"
+      },
+      {
+        "file": ".npmignore",
+        "hash": "14376220360351175827"
+      },
+      {
+        "file": ".yarn/.DS_Store",
+        "hash": "4495846288050117018"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "11700054529465077702"
+      },
+      {
+        "file": ".yarn/releases/yarn-4.0.2.cjs",
+        "hash": "18186858436245718126"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "4362853971024714661"
+      },
+      {
+        "file": "DOCUMENTATION.md",
+        "hash": "14905117983156207866"
+      },
+      {
+        "file": "README.md",
+        "hash": "9870767071514380216"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "3713419119086729183"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17451119399512055928"
+      },
+      {
+        "file": "package.json",
+        "hash": "7194831113658026542"
+      },
+      {
+        "file": "packages/.DS_Store",
+        "hash": "4824244331011243101"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "11693515471523417948"
+      }
+    ]
+  }
+}

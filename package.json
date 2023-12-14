@@ -1,19 +1,25 @@
 {
   "name": "@signozhq/ui-core",
-  "private": false,
+  "private": true,
   "version": "0.0.6",
   "workspaces": [
     "packages/*"
   ],
   "publishConfig": {
     "access": "public"
-  },  
-  "dependencies": {},
+  },
   "devDependencies": {
     "lerna": "7.2.0"
   },
   "scripts": {
     "build": "lerna run build",
     "clean": "rm -rf packages/token/build"
+  },
+  "packageManager": "yarn@3.7.0",
+  "dependencies": {
+    "@nrwl/cli": "15.9.3",
+    "dev": "^0.1.3",
+    "global": "^4.4.0",
+    "nx": "17.2.3"
   }
 }

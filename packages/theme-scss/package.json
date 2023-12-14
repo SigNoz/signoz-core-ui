@@ -1,0 +1,11 @@
+{
+  "name": "signoz-theme",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "signoz-token": "workspace:^"
+  }
+}
