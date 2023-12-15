@@ -20,7 +20,8 @@
     ".": {
       "import": "./dist/periscope.js",
       "require": "./dist/periscope.js"
-    }
+    },
+    "./dist/*": "./dist/*"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
