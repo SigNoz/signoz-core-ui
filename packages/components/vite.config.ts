@@ -22,7 +22,7 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      formats: ["es",'cjs'],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react/jsx-runtime"],
