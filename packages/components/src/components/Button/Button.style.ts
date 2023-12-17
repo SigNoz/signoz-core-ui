@@ -1,4 +1,6 @@
-.Base {
+import {css} from '@linaria/core'
+
+export const base = css`
   display: inline-flex;
   align-items: center;
   justify-self: center;
@@ -26,83 +28,91 @@
     opacity: 0.5;
     pointer-events: none;
   }
-}
+`
 
-.ButtonDefault {
+export const ButtonDefault = css`
   background-color: var(--color-primary);
   color: var(--color-foreground);
 
   &:hover {
     background-color: var(--color-primary-hover);
   }
-}
+`
 
-.ButtonSecondary {
+export const ButtonSecondary =  css`
   background-color: var(--color-secondary);
   color:  var(--color-foreground);
 
   &:hover {
     background-color: var(--color-secondary-hover);
   }
-}
+`
 
-.ButtonWarning {
+export const ButtonWarning = css`
   background-color: var(--color-warning);
   color: var(--color-background);
 
   &:hover {
     background-color: var(--color-warning-hover);
   }
-}
-
-.ButtonDanger {
+`
+export const ButtonDanger = css`
   background-color: var(--color-danger);
   color: var(--color-foreground);
 
   &:hover {
     background-color: var(--color-danger-hover);
   }
-}
+`
 
-.ButtonBorder {
+export const ButtonBorder = css`
   background-color: transparent;
   color: var(--color-foreground);
   border: 1px solid var(--color-secondary);
-}
+`
 
-.ButtonBorderDashed {
+export const ButtonBorderDashed = css`
   background-color: transparent;
   color: var(--color-foreground);
   border: 1px dashed var(--color-secondary);
-}
+`
 
-.ButtonLink {
+export const ButtonBorderNone = css`
+  border: none;
+`
+
+export const ButtonBorderSolid = css`
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--color-secondary);
+`
+
+export const ButtonLink = css`
   background-color: transparent;
   padding: 0;
   color: var(--color-primary)
-}
+`
 
-.ButtonGhost {
+export const ButtonGhost = css`
   background-color: transparent;
   color: var(--color-foreground);
-}
+`
 
-.ButtonSizeXS {
+export const ButtonSizeXS = css`
   font-size: 8px;
   padding: 4px 8px;
-}
+`
 
-.ButtonSizeSM {
+export const ButtonSizeSM = css`
   font-size: 12px;
   padding: 8px 1rem;
-}
+`
 
-.ButtonSizeMD {
+export const ButtonSizeMD = css`
   font-size: 12px;
   padding: 12px 1rem;
-}
-
-.ButtonSizeLG {
+`
+export const ButtonSizeLG = css`
   font-size: 1rem;
   padding: 12px 24px;
-}
+`

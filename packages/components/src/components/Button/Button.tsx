@@ -3,10 +3,10 @@ import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 import { mergeClasses } from "../../utils/mergeClasses"
 
-import * as styles from './Button.module.scss'
+import * as styles from './Button.style.ts'
 
 const buttonVariants = cva(
-	styles.Base,
+	styles.base,
 	{
 		variants: {
 			variant: {
