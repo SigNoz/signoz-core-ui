@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^11.2.0",
     "style-dictionary": "3.8.0"
   }
 }

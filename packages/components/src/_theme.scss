@@ -1,5 +1,6 @@
 @import './styles.module.scss';
 @import "./node_modules/@signozhq/token/build/tokens/variables.scss";
+@import "../../token/build/tokens/tokens";
 
 :root {
     --color-background: #{$ink-400};
@@ -17,3 +18,12 @@
     --color-danger: #{$cherry-500};
     --color-danger-hover: #{$cherry-400};
 }
+
+@each $name, $value in $token-vars {
+    .icon-#{$name}:before {
+      display: inline-block;
+      font-family: "Icon Font";
+      content: $value;
+    }
+  }
+  

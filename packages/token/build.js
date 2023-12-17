@@ -5,8 +5,8 @@ fs.removeSync(webPath);
 
 function removeTitle(dictionary) {
   dictionary.allTokens = dictionary.allTokens.map(token => {
-      token.name = token.name.substring(token.name.indexOf("-") + 1);
-      return token;
+    token.name = token.name.substring(token.name.indexOf("-") + 1);
+    return token;
   });
 }
 
@@ -59,13 +59,29 @@ function lightFormatWrapper(format) {
   }
 }
 
+const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 
+StyleDictionary.registerFormat({
+  name: 'myCustomFormat',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+    return fileHeader({ file }) +
+      ':root {\n' +
+      formattedVariables({ format: 'scss', dictionary, outputReferences }) +
+      '\n}\n';
+  }
+});
+
+const getSticthedVars = (props) => {
+  return `$token-vars: (${props.allProperties.reduce((accumulator, { value, name }) => accumulator + `${name}: ${value},`, '')})`;
+}
 
 StyleDictionary.extend({
   // custom formats
   format: {
     scssDark: darkFormatWrapper(`scss/variables`),
     scssLight: lightFormatWrapper(`scss/variables`),
+    stitchVars: getSticthedVars
   },
 
   source: [
@@ -82,11 +98,21 @@ StyleDictionary.extend({
         options: {
           outputReferences: true
         }
-      }, {
+      },
+      {
         destination: `variables-dark.scss`,
         format: `scssDark`,
         filter: (token) => token.darkValue && token.attributes.category === `color`
+      },
+    ]},
+    web: {
+      transformGroup: "web",
+      buildPath: webPath,
+      files: [{
+        destination: "_tokens.scss",
+        format: "stitchVars"
       }]
-    }
+    },
+
   }
 }).buildAllPlatforms();
