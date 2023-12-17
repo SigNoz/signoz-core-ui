@@ -56,7 +56,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 		const Comp = asChild ? Slot : "button"
 		return (
 			<Comp
-				className={mergeClasses(buttonVariants({ variant, size, border, className }))}
+				className={mergeClasses(buttonVariants({ variant, size, border, className }), 'bg-pink')}
 				ref={ref}
 				{...props}
 			/>
