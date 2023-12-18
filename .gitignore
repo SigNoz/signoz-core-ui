@@ -1,2 +1,3 @@
 node_modules/
 packages/token/build/
+.vscode/settings.json
