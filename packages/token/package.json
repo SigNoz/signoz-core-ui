@@ -1,6 +1,6 @@
 {
   "name": "tokens",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "main": "build/scss/_variables.scss",
   "private": false,
   "scripts": {
