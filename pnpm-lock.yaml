@@ -23,9 +23,9 @@ importers:
       '@radix-ui/themes':
         specifier: ^2.0.2
         version: 2.0.2(@types/react-dom@18.2.17)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@signozhq/token':
+      '@ui-core/tokens':
         specifier: workspace:*
-        version: link:../token
+        version: link:../tokens
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -106,7 +106,7 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0(vite@5.0.8)
 
-  packages/token:
+  packages/tokens:
     dependencies:
       style-dictionary:
         specifier: 3.8.0

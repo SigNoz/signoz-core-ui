@@ -1,9 +1,9 @@
 {
-  "name": "@signozhq/periscope",
+  "name": "@ui-core/components",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
-  "main": "dist/periscope.js",
+  "main": "dist/components.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -26,7 +26,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/themes": "^2.0.2",
-    "@signozhq/token": "workspace:*",
+    "@ui-core/tokens": "workspace:*",
     "class-variance-authority": "^0.7.0",
     "lucide-react": "^0.295.0",
     "react": "^18.2.0",

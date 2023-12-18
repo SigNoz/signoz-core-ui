@@ -1,5 +1,5 @@
 @import "./styles.module.scss";
-@import "./node_modules/@signozhq/token/build/tokens/variables.scss";
+@import "../node_modules/@ui-core/tokens/build/tokens/variables.scss";
 
 :root {
   --color-background: #{$ink-400};
