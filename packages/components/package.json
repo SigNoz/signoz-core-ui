@@ -1,5 +1,5 @@
 {
-  "name": "@ui-core/components",
+  "name": "@signozhq/components",
   "private": false,
   "version": "0.1.0",
   "type": "module",
@@ -29,7 +29,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/themes": "^2.0.2",
-    "@ui-core/tokens": "workspace:*",
+    "@ui-core/tokens": "0.1.0",
     "class-variance-authority": "^0.7.0",
     "lucide-react": "^0.295.0",
     "react": "^18.2.0",
@@ -62,5 +62,6 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "gitHead": "3259242dc5b08e5889cbd7e82741e211965ea378"
 }

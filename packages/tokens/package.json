@@ -1,5 +1,5 @@
 {
-  "name": "@ui-core/tokens",
+  "name": "@signozhq/tokens",
   "version": "0.1.0",
   "main": "build/scss/_variables.scss",
   "private": false,
