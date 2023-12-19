@@ -1,5 +1,5 @@
 {
-  "name": "@signozhq/tokens",
+  "name": "@ui-core/tokens",
   "version": "0.1.0",
   "main": "build/scss/_variables.scss",
   "private": false,
@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "node build.js"
+    "build": "style-dictionary build"
   },
   "author": "",
   "license": "ISC",

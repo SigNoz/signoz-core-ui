@@ -1,5 +1,5 @@
 {
-  "name": "signozhq",
+  "name": "ui-core",
   "private": true,
   "version": "0.0.6",
   "workspaces": [
@@ -16,6 +16,6 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "clean": "rm -rf packages/token/build"
+    "clean": "rm -rf packages/tokens/build"
   }
 }

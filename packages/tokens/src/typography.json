@@ -1,0 +1,13 @@
+{
+  "font": {
+    "lg": {
+      "value": "24px"
+    },
+    "md": {
+      "value": "16px"
+    },
+    "sm": {
+      "value": "12px"
+    }
+  }
+}
