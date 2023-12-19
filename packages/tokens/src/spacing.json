@@ -1,0 +1,24 @@
+{
+  "padding": {
+    "lg": {
+      "value": "24px"
+    },
+    "md": {
+      "value": "16px"
+    },
+    "sm": {
+      "value": "12px"
+    }
+  },
+  "margin": {
+    "lg": {
+      "value": "24px"
+    },
+    "md": {
+      "value": "16px"
+    },
+    "sm": {
+      "value": "12px"
+    }
+  }
+}

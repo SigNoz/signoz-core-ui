@@ -1,7 +1,7 @@
 {
   "name": "signozhq",
   "private": true,
-  "version": "0.0.6",
+  "version": "0.0.1",
   "workspaces": [
     "packages/*"
   ],
@@ -16,6 +16,6 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "clean": "rm -rf packages/token/build"
+    "clean": "rm -rf packages/tokens/build"
   }
 }
