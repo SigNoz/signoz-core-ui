@@ -1,5 +1,5 @@
 {
-  "name": "@signozhq/components",
+  "name": "@signozhq/web-components",
   "private": false,
   "version": "0.0.3",
   "type": "module",
