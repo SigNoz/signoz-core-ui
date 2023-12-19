@@ -1,7 +1,7 @@
 {
   "name": "@signozhq/design-tokens",
   "version": "0.0.5",
-  "main": "build/scss/_variables.scss",
+  "main": "index.scss",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -9,6 +9,10 @@
   "scripts": {
     "build": "style-dictionary build"
   },
+  "files": [
+    "dist/",
+    "index.scss"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

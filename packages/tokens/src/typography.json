@@ -2,561 +2,89 @@
   "fontSize": {
     "xs": {
       "value": "0.75rem",
-      "original": {
-        "value": "0.75rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "xs"
-      },
-      "path": ["fontSize", "xs"]
-    },
-    "xs--lineHeight": {
-      "value": "1rem",
-      "original": {
-        "value": "1rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "xs--lineHeight"
-      },
-      "path": ["fontSize", "xs--lineHeight"]
+      "type": "typography"
     },
     "sm": {
       "value": "0.875rem",
-      "original": {
-        "value": "0.875rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "sm"
-      },
-      "path": ["fontSize", "sm"]
-    },
-    "sm--lineHeight": {
-      "value": "1.25rem",
-      "original": {
-        "value": "1.25rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "sm--lineHeight"
-      },
-      "path": ["fontSize", "sm--lineHeight"]
-    },
-    "base": {
-      "value": "1rem",
-      "original": {
-        "value": "1rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "base"
-      },
-      "path": ["fontSize", "base"]
-    },
-    "base--lineHeight": {
-      "value": "1.5rem",
-      "original": {
-        "value": "1.5rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "base--lineHeight"
-      },
-      "path": ["fontSize", "base--lineHeight"]
+      "type": "typography"
     },
     "lg": {
       "value": "1.125rem",
-      "original": {
-        "value": "1.125rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "lg"
-      },
-      "path": ["fontSize", "lg"]
-    },
-    "lg--lineHeight": {
-      "value": "1.75rem",
-      "original": {
-        "value": "1.75rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "lg--lineHeight"
-      },
-      "path": ["fontSize", "lg--lineHeight"]
+      "type": "typography"
     },
     "xl": {
       "value": "1.25rem",
-      "original": {
-        "value": "1.25rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "xl"
-      },
-      "path": ["fontSize", "xl"]
-    },
-    "xl--lineHeight": {
-      "value": "1.75rem",
-      "original": {
-        "value": "1.75rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "xl--lineHeight"
-      },
-      "path": ["fontSize", "xl--lineHeight"]
+      "type": "typography"
     },
     "2xl": {
       "value": "1.5rem",
-      "original": {
-        "value": "1.5rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "2xl"
-      },
-      "path": ["fontSize", "2xl"]
-    },
-    "2xl--lineHeight": {
-      "value": "2rem",
-      "original": {
-        "value": "2rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "2xl--lineHeight"
-      },
-      "path": ["fontSize", "2xl--lineHeight"]
+      "type": "typography"
     },
     "3xl": {
       "value": "1.875rem",
-      "original": {
-        "value": "1.875rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "3xl"
-      },
-      "path": ["fontSize", "3xl"]
-    },
-    "3xl--lineHeight": {
-      "value": "2.25rem",
-      "original": {
-        "value": "2.25rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "3xl--lineHeight"
-      },
-      "path": ["fontSize", "3xl--lineHeight"]
+      "type": "typography"
     },
     "4xl": {
       "value": "2.25rem",
-      "original": {
-        "value": "2.25rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "4xl"
-      },
-      "path": ["fontSize", "4xl"]
-    },
-    "4xl--lineHeight": {
-      "value": "2.5rem",
-      "original": {
-        "value": "2.5rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "4xl--lineHeight"
-      },
-      "path": ["fontSize", "4xl--lineHeight"]
+      "type": "typography"
     },
     "5xl": {
       "value": "3rem",
-      "original": {
-        "value": "3rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "5xl"
-      },
-      "path": ["fontSize", "5xl"]
-    },
-    "5xl--lineHeight": {
-      "value": "1",
-      "original": {
-        "value": "1"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "5xl--lineHeight"
-      },
-      "path": ["fontSize", "5xl--lineHeight"]
+      "type": "typography"
     },
     "6xl": {
       "value": "3.75rem",
-      "original": {
-        "value": "3.75rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "6xl"
-      },
-      "path": ["fontSize", "6xl"]
-    },
-    "6xl--lineHeight": {
-      "value": "1",
-      "original": {
-        "value": "1"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "6xl--lineHeight"
-      },
-      "path": ["fontSize", "6xl--lineHeight"]
+      "type": "typography"
     },
     "7xl": {
       "value": "4.5rem",
-      "original": {
-        "value": "4.5rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "7xl"
-      },
-      "path": ["fontSize", "7xl"]
-    },
-    "7xl--lineHeight": {
-      "value": "1",
-      "original": {
-        "value": "1"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "7xl--lineHeight"
-      },
-      "path": ["fontSize", "7xl--lineHeight"]
+      "type": "typography"
     },
     "8xl": {
       "value": "6rem",
-      "original": {
-        "value": "6rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "8xl"
-      },
-      "path": ["fontSize", "8xl"]
-    },
-    "8xl--lineHeight": {
-      "value": "1",
-      "original": {
-        "value": "1"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "8xl--lineHeight"
-      },
-      "path": ["fontSize", "8xl--lineHeight"]
+      "type": "typography"
     },
     "9xl": {
       "value": "8rem",
-      "original": {
-        "value": "8rem"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "9xl"
-      },
-      "path": ["fontSize", "9xl"]
-    },
-    "9xl--lineHeight": {
-      "value": "1",
-      "original": {
-        "value": "1"
-      },
-      "attributes": {
-        "category": "fontSize",
-        "type": "9xl--lineHeight"
-      },
-      "path": ["fontSize", "9xl--lineHeight"]
+      "type": "typography"
     }
   },
   "fontWeight": {
     "thin": {
       "value": "100",
-      "original": {
-        "value": "100"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "thin"
-      },
-      "path": ["fontWeight", "thin"]
+      "type": "typography"
     },
     "extralight": {
       "value": "200",
-      "original": {
-        "value": "200"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "extralight"
-      },
-      "path": ["fontWeight", "extralight"]
+      "type": "typography"
     },
     "light": {
       "value": "300",
-      "original": {
-        "value": "300"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "light"
-      },
-      "path": ["fontWeight", "light"]
+      "type": "typography"
     },
     "normal": {
       "value": "400",
-      "original": {
-        "value": "400"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "normal"
-      },
-      "path": ["fontWeight", "normal"]
+      "type": "typography"
     },
     "medium": {
       "value": "500",
-      "original": {
-        "value": "500"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "medium"
-      },
-      "path": ["fontWeight", "medium"]
+      "type": "typography"
     },
     "semibold": {
       "value": "600",
-      "original": {
-        "value": "600"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "semibold"
-      },
-      "path": ["fontWeight", "semibold"]
+      "type": "typography"
     },
     "bold": {
       "value": "700",
-      "original": {
-        "value": "700"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "bold"
-      },
-      "path": ["fontWeight", "bold"]
+      "type": "typography"
     },
     "extrabold": {
       "value": "800",
-      "original": {
-        "value": "800"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "extrabold"
-      },
-      "path": ["fontWeight", "extrabold"]
+      "type": "typography"
     },
     "black": {
       "value": "900",
-      "original": {
-        "value": "900"
-      },
-      "attributes": {
-        "category": "fontWeight",
-        "type": "black"
-      },
-      "path": ["fontWeight", "black"]
-    }
-  },
-  "lineHeights": {
-    "3": {
-      "value": 12,
-      "type": "lineHeights",
-      "original": {
-        "value": 12,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "3"
-      },
-      "path": ["lineHeights", "3"]
-    },
-    "4": {
-      "value": 16,
-      "type": "lineHeights",
-      "original": {
-        "value": 16,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "4"
-      },
-      "path": ["lineHeights", "4"]
-    },
-    "5": {
-      "value": 20,
-      "type": "lineHeights",
-      "original": {
-        "value": 20,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "5"
-      },
-      "path": ["lineHeights", "5"]
-    },
-    "6": {
-      "value": 24,
-      "type": "lineHeights",
-      "original": {
-        "value": 24,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "6"
-      },
-      "path": ["lineHeights", "6"]
-    },
-    "7": {
-      "value": 28,
-      "type": "lineHeights",
-      "original": {
-        "value": 28,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "7"
-      },
-      "path": ["lineHeights", "7"]
-    },
-    "8": {
-      "value": 32,
-      "type": "lineHeights",
-      "original": {
-        "value": 32,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "8"
-      },
-      "path": ["lineHeights", "8"]
-    },
-    "9": {
-      "value": 36,
-      "type": "lineHeights",
-      "original": {
-        "value": 36,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "9"
-      },
-      "path": ["lineHeights", "9"]
-    },
-    "10": {
-      "value": 40,
-      "type": "lineHeights",
-      "original": {
-        "value": 40,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "10"
-      },
-      "path": ["lineHeights", "10"]
-    },
-    "none": {
-      "value": 16,
-      "type": "lineHeights",
-      "original": {
-        "value": 16,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "none"
-      },
-      "path": ["lineHeights", "none"]
-    },
-    "tight": {
-      "value": 20,
-      "type": "lineHeights",
-      "original": {
-        "value": 20,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "tight"
-      },
-      "path": ["lineHeights", "tight"]
-    },
-    "snug": {
-      "value": 22,
-      "type": "lineHeights",
-      "original": {
-        "value": 22,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "snug"
-      },
-      "path": ["lineHeights", "snug"]
-    },
-    "normal": {
-      "value": 24,
-      "type": "lineHeights",
-      "original": {
-        "value": 24,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "normal"
-      },
-      "path": ["lineHeights", "normal"]
-    },
-    "relaxed": {
-      "value": 26,
-      "type": "lineHeights",
-      "original": {
-        "value": 26,
-        "type": "lineHeights"
-      },
-      "attributes": {
-        "category": "lineHeights",
-        "type": "relaxed"
-      },
-      "path": ["lineHeights", "relaxed"]
+      "type": "typography"
     }
   }
 }
