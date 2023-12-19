@@ -1,4 +1,6 @@
 node_modules/
 packages/token/build/
-.vscode/settings.json
-.nx/**
+.yarn
+
+.DS_Store
+*.log

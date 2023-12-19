@@ -1,0 +1,1 @@
+export const mergeClasses = (...classes: string[]) => [...classes].map(cls => cls ? cls : "").join(' ')

@@ -1,0 +1,206 @@
+{
+  "color": {
+    "Robin": {
+      "600": {
+        "value": "#3F5ECC"
+      },
+      "500": {
+        "value": "#4E74F8"
+      },
+      "400": {
+        "value": "#7190F9"
+      },
+      "300": {
+        "value": "#95ACFB"
+      },
+      "200": {
+        "value": "#B8C7FC"
+      },
+      "100": {
+        "value": "#CAD5FD"
+      }
+    },
+    "Sienna": {
+      "600": {
+        "value": "#8A6646"
+      },
+      "500": {
+        "value": "#AD7F58"
+      },
+      "400": {
+        "value": "#BD9979"
+      },
+      "300": {
+        "value": "#CEB29B"
+      },
+      "200": {
+        "value": "#DECCBC"
+      },
+      "100": {
+        "value": "#E6D9CD"
+      }
+    },
+    "Cherry": {
+      "600": {
+        "value": "#B83A3E"
+      },
+      "500": {
+        "value": "#E5484D"
+      },
+      "400": {
+        "value": "#EA6D71"
+      },
+      "300": {
+        "value": "#F5B6B8"
+      },
+      "200": {
+        "value": "#F7C8CA"
+      },
+      "100": {
+        "value": "#FADADB"
+      }
+    },
+    "Aqua": {
+      "600": {
+        "value": "#07AFE6"
+      },
+      "500": {
+        "value": "#23C4F8"
+      },
+      "400": {
+        "value": "#4BCFF9"
+      },
+      "300": {
+        "value": "#72D9FB"
+      },
+      "200": {
+        "value": "#9AE4FC"
+      },
+      "100": {
+        "value": "#C1EEFD"
+      }
+    },
+    "Sakura": {
+      "600": {
+        "value": "#C53955"
+      },
+      "500": {
+        "value": "#F24769"
+      },
+      "400": {
+        "value": "#F56C87"
+      },
+      "300": {
+        "value": "#F791A5"
+      },
+      "200": {
+        "value": "#FAB5C3"
+      },
+      "100": {
+        "value": "#FBC8D2"
+      }
+    },
+    "Amber": {
+      "600": {
+        "value": "#D5AA45"
+      },
+      "500": {
+        "value": "#FFCD56"
+      },
+      "400": {
+        "value": "#FFD778"
+      },
+      "300": {
+        "value": "#FFE19A"
+      },
+      "200": {
+        "value": "#FFEBBB"
+      },
+      "100": {
+        "value": "#FFF0CC"
+      }
+    },
+    "Ink": {
+      "500": {
+        "value": "#0B0C0E"
+      },
+      "400": {
+        "value": "#121317"
+      },
+      "300": {
+        "value": "#16181D"
+      },
+      "200": {
+        "value": "#23262E"
+      },
+      "100": {
+        "value": "#2A2E37"
+      }
+    },
+    "Vanilla": {
+      "400": {
+        "value": "#C0C1C3"
+      },
+      "300": {
+        "value": "#E9E9E9"
+      },
+      "200": {
+        "value": "#F5F5F5"
+      },
+      "100": {
+        "value": "#FFFFFF"
+      }
+    },
+    "Slate": {
+      "500": {
+        "value": "#161922"
+      },
+      "400": {
+        "value": "#1D212D"
+      },
+      "300": {
+        "value": "#242834"
+      },
+      "200": {
+        "value": "#2C3140"
+      }
+    },
+    "Gradient": {
+      "Coral": {
+        "value": "linear-gradient(114deg, #ED6D68 14.99%, #FCA083 77.27%)"
+      },
+      "Dark-Shadow": {
+        "value": "linear-gradient(139deg, rgba(18, 19, 23, 0.80) 0%, rgba(18, 19, 23, 0.90) 98.68%)"
+      },
+      "Dawn": {
+        "value": "linear-gradient(99deg, #7A97FA 4.42%, #F977FF 96.6%)"
+      },
+      "Ocean": {
+        "value": "linear-gradient(99deg, #48F8CF 4.42%, #28CBF3 96.6%)"
+      },
+      "Splash": {
+        "value": "linear-gradient(99deg, #4568DC 4.42%, #324DAA 96.6%)"
+      },
+      "Flamingo": {
+        "value": "linear-gradient(92deg, #CA9CD0 1.36%, #D38972 68.48%, #A1B1E7 98.99%)"
+      }
+    },
+    "Forest": {
+      "600": {
+        "value": "#1EB475"
+      },
+      "500": {
+        "value": "#25E192"
+      },
+      "400": {
+        "value": "#51E7A8"
+      },
+      "300": {
+        "value": "#7CEDBE"
+      },
+      "200": {
+        "value": "#A8F3D3"
+      }
+    }
+  }
+}

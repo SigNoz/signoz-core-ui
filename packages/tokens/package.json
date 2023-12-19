@@ -1,8 +1,11 @@
 {
-  "name": "tokens",
-  "version": "0.0.2",
+  "name": "@signozhq/tokens",
+  "version": "0.1.0",
   "main": "build/scss/_variables.scss",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "node build.js"
   },
