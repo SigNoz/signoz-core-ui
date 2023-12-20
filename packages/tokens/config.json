@@ -1,13 +1,44 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["src/**/*.json"],
   "platforms": {
-    "scss": {
+    "scss_colors": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "_colors.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "color"
+          }
+        }
+      ]
+    },
+    "scss_spacings": {
+      "transformGroup": "scss",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "_spacings.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "spacing"
+          }
+        }
+      ]
+    },
+    "scss_typography": {
+      "transformGroup": "scss",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "_typography.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "typography"
+          }
+        }
+      ]
     }
   }
 }

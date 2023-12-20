@@ -1,21 +1,21 @@
 @import "./styles.module.scss";
-@import "../node_modules/@ui-core/tokens/build/tokens/variables.scss";
+@import "../node_modules/@signozhq/design-tokens/index";
 
 :root {
-  --color-background: #{$ink-400};
-  --color-foreground: #{$vanilla-100};
+  --color-background: #{$bg-ink-400};
+  --color-foreground: #{$bg-vanilla-100};
 
-  --color-primary: #{$robin-500};
-  --color-primary-hover: #{$robin-400};
+  --color-primary: #{$text-robin-500};
+  --color-primary-hover: #{$text-robin-400};
 
-  --color-secondary: #{$slate-400};
-  --color-secondary-hover: #{$slate-300};
+  --color-secondary: #{$text-slate-400};
+  --color-secondary-hover: #{$text-slate-300};
 
-  --color-warning: #{$amber-500};
-  --color-warning-hover: #{$amber-400};
+  --color-warning: #{$text-amber-500};
+  --color-warning-hover: #{$text-amber-400};
 
-  --color-danger: #{$cherry-500};
-  --color-danger-hover: #{$cherry-400};
+  --color-danger: #{$text-cherry-500};
+  --color-danger-hover: #{$text-cherry-400};
 }
 
 $spaceAmounts: (1, 2, 3, 4, 5, 6, 7, 8, auto);

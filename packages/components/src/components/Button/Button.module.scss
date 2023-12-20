@@ -39,7 +39,7 @@
 
 .ButtonSecondary {
   background-color: var(--color-secondary);
-  color:  var(--color-foreground);
+  color: var(--color-foreground);
 
   &:hover {
     background-color: var(--color-secondary-hover);
@@ -79,7 +79,7 @@
 .ButtonLink {
   background-color: transparent;
   padding: 0;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 .ButtonGhost {

@@ -1,7 +1,7 @@
 {
-  "name": "@signozhq/components",
+  "name": "@signozhq/web-components",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/components.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/themes": "^2.0.2",
-    "@signozhq/tokens": "workspace:*",
+    "@signozhq/design-tokens": "workspace:*",
     "class-variance-authority": "^0.7.0",
     "lucide-react": "^0.295.0",
     "react": "^18.2.0",
