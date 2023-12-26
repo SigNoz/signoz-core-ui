@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "style-dictionary build",
-    "tokens-enums": "node ./scripts/generate-types-from-json.mjs"
+    "generate-tokens": "node ./scripts/generate-types-from-json.mjs"
   },
   "files": [
     "dist/",
