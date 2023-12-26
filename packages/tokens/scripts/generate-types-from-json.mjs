@@ -21,7 +21,9 @@ const generateEnum = (obj, parent = "", finalObj) => {
   generateEnum(colors, undefined, colorEnum);
   fs.writeFile(
     "./src/Colors/Colors.ts",
-    `export const Colors = ${JSON.stringify(colorEnum, null, 2)};`
+    `export const Color = ${JSON.stringify(colorEnum, null, 2)};
+    export type Color = (typeof Color)[keyof typeof Color];
+    `
   )
     .then(() => {
       console.log("Color.ts generated successfully");

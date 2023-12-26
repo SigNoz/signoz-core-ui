@@ -1,4 +1,4 @@
-export const Colors = {
+export const Color = {
   BG_ROBIN_100: "#CAD5FD",
   BG_ROBIN_200: "#B8C7FC",
   BG_ROBIN_300: "#95ACFB",
@@ -125,3 +125,4 @@ export const Colors = {
   TEXT_FOREST_500: "#25E192",
   TEXT_FOREST_600: "#1EB475",
 };
+export type Color = (typeof Color)[keyof typeof Color];
