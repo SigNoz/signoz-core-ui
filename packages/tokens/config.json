@@ -3,7 +3,7 @@
   "platforms": {
     "scss_colors": {
       "transformGroup": "scss",
-      "buildPath": "dist/",
+      "buildPath": "src/Colors/",
       "files": [
         {
           "destination": "_colors.scss",
@@ -16,7 +16,7 @@
     },
     "scss_spacings": {
       "transformGroup": "scss",
-      "buildPath": "dist/",
+      "buildPath": "src/Spacing/",
       "files": [
         {
           "destination": "_spacings.scss",
@@ -29,7 +29,7 @@
     },
     "scss_typography": {
       "transformGroup": "scss",
-      "buildPath": "dist/",
+      "buildPath": "src/Typography/",
       "files": [
         {
           "destination": "_typography.scss",

@@ -31,4 +31,42 @@ const generateEnum = (obj, parent = "", finalObj) => {
     .catch((e) => {
       console.log(`Something Went wrong - ${e}`);
     });
+
+  // Generate Spacing.ts file
+  const spacingEnum = {};
+  const spacings = await JSON.parse(
+    await fs.readFile("./src/Spacing/spacing.json")
+  );
+  generateEnum(spacings, undefined, spacingEnum);
+  fs.writeFile(
+    "./src/Spacing/Spacing.ts",
+    `export const Spacing = ${JSON.stringify(spacingEnum, null, 2)};
+    export type Spacing = (typeof Spacing)[keyof typeof Spacing];
+    `
+  )
+    .then(() => {
+      console.log("Spacing.ts generated successfully");
+    })
+    .catch((e) => {
+      console.log(`Something Went wrong - ${e}`);
+    });
+
+  // Generate Typography.ts file
+  const typographyEnum = {};
+  const typography = await JSON.parse(
+    await fs.readFile("./src/Typography/typography.json")
+  );
+  generateEnum(typography, undefined, typographyEnum);
+  fs.writeFile(
+    "./src/Typography/Typography.ts",
+    `export const Typography = ${JSON.stringify(typographyEnum, null, 2)};
+    export type Typography = (typeof Typography)[keyof typeof Typography];
+    `
+  )
+    .then(() => {
+      console.log("Typography.ts generated successfully");
+    })
+    .catch((e) => {
+      console.log(`Something Went wrong - ${e}`);
+    });
 })();
