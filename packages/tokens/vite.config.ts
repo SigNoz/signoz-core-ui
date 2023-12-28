@@ -12,13 +12,4 @@ export default defineConfig({
       formats: ["es"],
     },
   },
-  css: {
-    modules: {
-      scopeBehaviour: "local",
-      generateScopedName: (name, filename, _css) => {
-        const _basename = basename(filename).replace(/\.module\.scss?.*/, "");
-        return `${_basename}--${name}`;
-      },
-    },
-  },
 });

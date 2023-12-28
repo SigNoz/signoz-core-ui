@@ -1,5 +1,5 @@
 node_modules/
-packages/token/build/
+packages/tokens/dist/
 .yarn
 
 .DS_Store

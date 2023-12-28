@@ -6,8 +6,8 @@
       "buildPath": "src/Colors/",
       "files": [
         {
-          "destination": "_colors.scss",
-          "format": "scss/variables",
+          "destination": "_colors.css",
+          "format": "css/variables",
           "filter": {
             "type": "color"
           }
@@ -19,8 +19,8 @@
       "buildPath": "src/Spacing/",
       "files": [
         {
-          "destination": "_spacings.scss",
-          "format": "scss/variables",
+          "destination": "_spacings.css",
+          "format": "css/variables",
           "filter": {
             "type": "spacing"
           }
@@ -32,8 +32,8 @@
       "buildPath": "src/Typography/",
       "files": [
         {
-          "destination": "_typography.scss",
-          "format": "scss/variables",
+          "destination": "_typography.css",
+          "format": "css/variables",
           "filter": {
             "type": "typography"
           }

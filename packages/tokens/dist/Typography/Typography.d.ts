@@ -1,0 +1,24 @@
+export declare const Typography: {
+    FONTSIZE_XS: string;
+    FONTSIZE_SM: string;
+    FONTSIZE_LG: string;
+    FONTSIZE_XL: string;
+    FONTSIZE_2XL: string;
+    FONTSIZE_3XL: string;
+    FONTSIZE_4XL: string;
+    FONTSIZE_5XL: string;
+    FONTSIZE_6XL: string;
+    FONTSIZE_7XL: string;
+    FONTSIZE_8XL: string;
+    FONTSIZE_9XL: string;
+    FONTWEIGHT_THIN: string;
+    FONTWEIGHT_EXTRALIGHT: string;
+    FONTWEIGHT_LIGHT: string;
+    FONTWEIGHT_NORMAL: string;
+    FONTWEIGHT_MEDIUM: string;
+    FONTWEIGHT_SEMIBOLD: string;
+    FONTWEIGHT_BOLD: string;
+    FONTWEIGHT_EXTRABOLD: string;
+    FONTWEIGHT_BLACK: string;
+};
+export type Typography = (typeof Typography)[keyof typeof Typography];

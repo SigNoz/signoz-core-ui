@@ -1,5 +1,5 @@
 import { Color } from "./Colors/Colors";
-import css from "./index.module.scss";
+import css from "./index.module.css";
 
 export interface KVO<T = any> {
   [key: string]: T;
