@@ -1,18 +1,22 @@
 {
   "name": "@signozhq/design-tokens",
   "version": "0.0.6",
-  "main": "index.scss",
+  "main": "dist/index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
+  "exports": {
+    ".": "./dist/index.d.ts",
+    "./dist/style.css": "./dist/index.css"
+  },
   "scripts": {
-    "build": "style-dictionary build",
+    "build": "vite build",
+    "build-style-dictionary": "style-dictionary build",
     "generate-tokens": "node ./scripts/generate-types-from-json.mjs"
   },
   "files": [
-    "dist/",
-    "index.scss"
+    "dist/"
   ],
   "author": "",
   "license": "ISC",
