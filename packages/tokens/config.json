@@ -1,8 +1,8 @@
 {
   "source": ["src/**/*.json"],
   "platforms": {
-    "scss_colors": {
-      "transformGroup": "scss",
+    "css_colors": {
+      "transformGroup": "css",
       "buildPath": "src/Colors/",
       "files": [
         {
@@ -14,8 +14,8 @@
         }
       ]
     },
-    "scss_spacings": {
-      "transformGroup": "scss",
+    "css_spacings": {
+      "transformGroup": "css",
       "buildPath": "src/Spacing/",
       "files": [
         {
@@ -27,8 +27,8 @@
         }
       ]
     },
-    "scss_typography": {
-      "transformGroup": "scss",
+    "css_typography": {
+      "transformGroup": "css",
       "buildPath": "src/Typography/",
       "files": [
         {
