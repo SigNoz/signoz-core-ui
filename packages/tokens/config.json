@@ -1,39 +1,39 @@
 {
   "source": ["src/**/*.json"],
   "platforms": {
-    "scss_colors": {
-      "transformGroup": "scss",
-      "buildPath": "dist/",
+    "css_colors": {
+      "transformGroup": "css",
+      "buildPath": "src/Colors/",
       "files": [
         {
-          "destination": "_colors.scss",
-          "format": "scss/variables",
+          "destination": "_colors.css",
+          "format": "css/variables",
           "filter": {
             "type": "color"
           }
         }
       ]
     },
-    "scss_spacings": {
-      "transformGroup": "scss",
-      "buildPath": "dist/",
+    "css_spacings": {
+      "transformGroup": "css",
+      "buildPath": "src/Spacing/",
       "files": [
         {
-          "destination": "_spacings.scss",
-          "format": "scss/variables",
+          "destination": "_spacings.css",
+          "format": "css/variables",
           "filter": {
             "type": "spacing"
           }
         }
       ]
     },
-    "scss_typography": {
-      "transformGroup": "scss",
-      "buildPath": "dist/",
+    "css_typography": {
+      "transformGroup": "css",
+      "buildPath": "src/Typography/",
       "files": [
         {
-          "destination": "_typography.scss",
-          "format": "scss/variables",
+          "destination": "_typography.css",
+          "format": "css/variables",
           "filter": {
             "type": "typography"
           }
