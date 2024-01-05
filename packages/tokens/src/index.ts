@@ -1,4 +1,4 @@
-export * from "./Colors/Colors";
-export * from "./Spacing/Spacing";
-export * from "./Typography/Typography";
-export * from "./utils";
+export * as Color from "./Colors/Colors";
+export * as Spacing from "./Spacing/Spacing";
+export * as Typography from "./Typography/Typography";
+export * as Utils from "./utils";
