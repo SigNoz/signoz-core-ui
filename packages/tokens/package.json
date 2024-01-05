@@ -1,13 +1,13 @@
 {
   "name": "@signozhq/design-tokens",
   "version": "0.0.7",
-  "main": "dist/index.d.ts",
+  "main": "index.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "exports": {
-    ".": "./dist/index.d.ts",
+    ".": "./dist/design-tokens.mjs",
     "./dist/style.css": "./dist/index.css"
   },
   "scripts": {
