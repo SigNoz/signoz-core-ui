@@ -1,22 +1,24 @@
 {
   "name": "@signozhq/design-tokens",
-  "version": "0.0.7",
-  "main": "dist/index.d.ts",
+  "version": "0.0.8",
+  "module": "./dist/design-tokens.js",
   "private": false,
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "exports": {
-    ".": "./dist/index.d.ts",
+    ".": "./dist/design-tokens.js",
     "./dist/style.css": "./dist/index.css"
   },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "vite build",
     "build-style-dictionary": "style-dictionary build",
     "generate-tokens": "node ./scripts/generate-types-from-json.mjs"
   },
   "files": [
-    "dist/"
+    "dist"
   ],
   "author": "",
   "license": "ISC",

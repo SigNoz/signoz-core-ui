@@ -1,5 +1,4 @@
-export * from "../src/Colors/Colors";
+export * from "./Colors/Colors";
+export * from "./Spacing/Spacing";
+export * from "./Typography/Typography";
 export * from "./utils";
-import styledClasses from "./index.module.css";
-
-export { styledClasses };
