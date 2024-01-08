@@ -1,11 +1,18 @@
+import { Toaster } from "@/components/ui/sonner";
 import { PeriscopeProviderContext } from "./context";
 
 export interface PeriscopeProviderProps {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 
-export const PeriscopeProvider = ({children}: PeriscopeProviderProps) => {
-    return <PeriscopeProviderContext.Provider value={{}}>{children}</PeriscopeProviderContext.Provider>
-}
+export const PeriscopeProvider = ({ children }: PeriscopeProviderProps) => {
+  return (
+    <PeriscopeProviderContext.Provider value={{}}>
+      {children}
 
-export default PeriscopeProvider
+      <Toaster />
+    </PeriscopeProviderContext.Provider>
+  );
+};
+
+export default PeriscopeProvider;
