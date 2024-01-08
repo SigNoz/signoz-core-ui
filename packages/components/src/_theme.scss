@@ -1,21 +1,21 @@
 @import "./styles.module.scss";
-@import "../node_modules/@signozhq/design-tokens/index";
+@import "../node_modules/@signozhq/design-tokens/src/index.module.css";
 
 :root {
-  --color-background: #{$bg-ink-400};
-  --color-foreground: #{$bg-vanilla-100};
+  --color-background: #{var(--bg-ink-400)};
+  --color-foreground: #{var(--bg-vanilla-100)};
 
-  --color-primary: #{$text-robin-500};
-  --color-primary-hover: #{$text-robin-400};
+  --color-primary: #{var(--text-robin-500)};
+  --color-primary-hover: #{var(--text-robin-400)};
 
-  --color-secondary: #{$text-slate-400};
-  --color-secondary-hover: #{$text-slate-300};
+  --color-secondary: #{var(--text-slate-400)};
+  --color-secondary-hover: #{var(--text-slate-300)};
 
-  --color-warning: #{$text-amber-500};
-  --color-warning-hover: #{$text-amber-400};
+  --color-warning: #{var(--text-amber-500)};
+  --color-warning-hover: #{var(--text-amber-400)};
 
-  --color-danger: #{$text-cherry-500};
-  --color-danger-hover: #{$text-cherry-400};
+  --color-danger: #{var(--text-cherry-500)};
+  --color-danger-hover: #{var(--text-cherry-400)};
 }
 
 $spaceAmounts: (1, 2, 3, 4, 5, 6, 7, 8, auto);
