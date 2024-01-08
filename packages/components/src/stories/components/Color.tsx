@@ -1,6 +1,7 @@
 import "./Color.css";
 import React from "react";
 import { Heading, Popover, Table, Text } from "@radix-ui/themes";
+import copy from "clipboard-copy";
 
 export interface ColorRowProps {
   name: string;
@@ -142,14 +143,26 @@ const names = {
 };
 
 const ColorRow = ({ name, value }: ColorRowProps) => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleMouseEnter = () => {
+    setOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setOpen(false);
+  };
   return (
     <Table.Row className="striped-row">
       <Table.RowHeaderCell align="center" className="bordered-cell">
         {name}
       </Table.RowHeaderCell>
       <Table.Cell align="center" className="bordered-cell">
-        <Popover.Root>
-          <Popover.Trigger>
+        <Popover.Root onOpenChange={(isOpen) => setOpen(isOpen)} open={open}>
+          <Popover.Trigger
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <button
               style={{
                 all: "unset",
@@ -160,10 +173,13 @@ const ColorRow = ({ name, value }: ColorRowProps) => {
                 border: `1px solid ${name.includes("white") ? "#000" : "#fff"}`,
                 cursor: "pointer",
               }}
+              onClick={() => {
+                copy("var(" + name + ")");
+              }}
             />
           </Popover.Trigger>
           <Popover.Content>
-            <Text>var({name}) (click to copy)</Text>
+            <Text className="popover-content">var({name}) (click to copy)</Text>
           </Popover.Content>
         </Popover.Root>
       </Table.Cell>

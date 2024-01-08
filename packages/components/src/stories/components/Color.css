@@ -16,3 +16,10 @@
   border: 1px solid #ccc;
   padding: 8px;
 }
+
+.popover-content {
+  padding: 5px;
+  background-color: #2a2e37;
+  border-radius: 5px;
+  color: white;
+}
