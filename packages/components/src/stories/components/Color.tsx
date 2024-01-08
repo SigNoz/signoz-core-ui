@@ -1,5 +1,6 @@
+import "./Color.css";
 import React from "react";
-import { Heading, Popover, Table } from "@radix-ui/themes";
+import { Heading, Popover, Table, Text } from "@radix-ui/themes";
 
 export interface ColorRowProps {
   name: string;
@@ -142,9 +143,11 @@ const names = {
 
 const ColorRow = ({ name, value }: ColorRowProps) => {
   return (
-    <Table.Row>
-      <Table.RowHeaderCell align="center">{name}</Table.RowHeaderCell>
-      <Table.Cell align="center">
+    <Table.Row className="striped-row">
+      <Table.RowHeaderCell align="center" className="bordered-cell">
+        {name}
+      </Table.RowHeaderCell>
+      <Table.Cell align="center" className="bordered-cell">
         <Popover.Root>
           <Popover.Trigger>
             <button
@@ -160,12 +163,14 @@ const ColorRow = ({ name, value }: ColorRowProps) => {
             />
           </Popover.Trigger>
           <Popover.Content>
-            {/* <Text>var({name}) (click to copy)</Text> */}
+            <Text>var({name}) (click to copy)</Text>
           </Popover.Content>
         </Popover.Root>
       </Table.Cell>
-      <Table.Cell align="center">{value}</Table.Cell>
-      <Table.Cell align="center">
+      <Table.Cell className="bordered-cell" align="center">
+        {value}
+      </Table.Cell>
+      <Table.Cell className="bordered-cell" align="center">
         Color.
         {name.replace(/--/g, "").replace(/-/g, "_").toUpperCase()}
       </Table.Cell>
@@ -179,13 +184,21 @@ export default function Colors(): React.ReactElement {
       <Heading as="h1" style={{ paddingBottom: "25px" }}>
         Colors
       </Heading>
-      <Table.Root style={{ background: "#E6D9CD", padding: "20px" }}>
-        <Table.Header style={{ marginBottom: "20px" }}>
-          <Table.Row>
-            <Table.ColumnHeaderCell>CSS Variable Name</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>Color</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>Hex Value</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>Color Reference</Table.ColumnHeaderCell>
+      <Table.Root className="bordered-table">
+        <Table.Header>
+          <Table.Row className="header-row">
+            <Table.ColumnHeaderCell className="bordered-cell">
+              CSS Variable Name
+            </Table.ColumnHeaderCell>
+            <Table.ColumnHeaderCell className="bordered-cell">
+              Color
+            </Table.ColumnHeaderCell>
+            <Table.ColumnHeaderCell className="bordered-cell">
+              Hex Value
+            </Table.ColumnHeaderCell>
+            <Table.ColumnHeaderCell className="bordered-cell">
+              Color Reference
+            </Table.ColumnHeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
