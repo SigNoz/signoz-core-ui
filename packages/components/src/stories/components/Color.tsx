@@ -1,6 +1,28 @@
 import "./Color.css";
 import React from "react";
-import { Heading, Popover, Table, Text } from "@radix-ui/themes";
+
+import { Toaster } from "@/components/ui/sonner";
+
+import { toast } from "sonner";
+
+import { Button } from "@/components/ui/button";
+
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+
+import {
+  Table as ShadcnTable,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
 import copy from "clipboard-copy";
 
 export interface ColorRowProps {
@@ -143,86 +165,69 @@ const names = {
 };
 
 const ColorRow = ({ name, value }: ColorRowProps) => {
-  const [open, setOpen] = React.useState(false);
-
-  const handleMouseEnter = () => {
-    setOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    setOpen(false);
-  };
   return (
-    <Table.Row className="striped-row">
-      <Table.RowHeaderCell align="center" className="bordered-cell">
-        {name}
-      </Table.RowHeaderCell>
-      <Table.Cell align="center" className="bordered-cell">
-        <Popover.Root onOpenChange={(isOpen) => setOpen(isOpen)} open={open}>
-          <Popover.Trigger
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            <button
-              style={{
-                all: "unset",
-                background: value,
-                width: "30px",
-                height: "30px",
-                display: "inline-block",
-                border: `1px solid ${name.includes("white") ? "#000" : "#fff"}`,
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                copy("var(" + name + ")");
-              }}
-            />
-          </Popover.Trigger>
-          <Popover.Content>
-            <Text className="popover-content">var({name}) (click to copy)</Text>
-          </Popover.Content>
-        </Popover.Root>
-      </Table.Cell>
-      <Table.Cell className="bordered-cell" align="center">
-        {value}
-      </Table.Cell>
-      <Table.Cell className="bordered-cell" align="center">
+    <TableRow key={name}>
+      <TableCell className="p-0">{name}</TableCell>
+      <TableCell className="p-0 py-1">
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button
+                variant="outline"
+                style={{
+                  all: "unset",
+                  background: value,
+                  width: "30px",
+                  height: "30px",
+                  display: "inline-block",
+                  border: `1px solid ${
+                    name.includes("white") ? "#000" : "#fff"
+                  }`,
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  copy("var(" + name + ")");
+
+                  toast(`${name} copied`);
+                }}
+              ></Button>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>var({name}) (click to copy)</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </TableCell>
+      <TableCell className="p-0 w-[400px] pr-1">{value}</TableCell>
+      <TableCell className="p-0">
         Color.
         {name.replace(/--/g, "").replace(/-/g, "_").toUpperCase()}
-      </Table.Cell>
-    </Table.Row>
+      </TableCell>
+    </TableRow>
   );
 };
 
 export default function Colors(): React.ReactElement {
   return (
-    <div style={{ width: "60%", margin: "0 auto" }}>
-      <Heading as="h1" style={{ paddingBottom: "25px" }}>
-        Colors
-      </Heading>
-      <Table.Root className="bordered-table">
-        <Table.Header>
-          <Table.Row className="header-row">
-            <Table.ColumnHeaderCell className="bordered-cell">
-              CSS Variable Name
-            </Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell className="bordered-cell">
-              Color
-            </Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell className="bordered-cell">
-              Hex Value
-            </Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell className="bordered-cell">
-              Color Reference
-            </Table.ColumnHeaderCell>
-          </Table.Row>
-        </Table.Header>
-        <Table.Body>
-          {Object.entries(names).map(([name, value]) => (
-            <ColorRow name={name} value={value} key={name + value} />
-          ))}
-        </Table.Body>
-      </Table.Root>
-    </div>
+    <ShadcnTable>
+      <TableHeader>
+        <TableRow>
+          <TableHead className="px-0 pr-4 pl-0 py-1">
+            {" "}
+            CSS Variable Name
+          </TableHead>
+          <TableHead className="px-0 pr-4 pl-0 py-1">Color</TableHead>
+          <TableHead className="px-0 pr-4 pl-0 py-1">Hex Value</TableHead>
+          <TableHead className="px-0 pr-4 pl-0 py-1">Color Reference</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {Object.entries(names).map(([name, value]) => (
+          <ColorRow name={name} value={value} key={name + value} />
+        ))}
+      </TableBody>
+
+      <Toaster />
+    </ShadcnTable>
   );
 }

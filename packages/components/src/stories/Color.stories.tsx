@@ -2,7 +2,7 @@ import { Meta } from "@storybook/react";
 import Color from "./components/Color";
 
 export default {
-  title: "Atoms/Color",
+  title: "Color",
   component: Color,
 } as Meta;
 
