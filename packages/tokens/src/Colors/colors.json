@@ -213,6 +213,10 @@
         "value": "#2C3140",
         "type": "color"
       },
+      "100": {
+        "value": "#3C4152",
+        "type": "color"
+      },
       "50": {
         "value": "#62687C",
         "type": "color"
