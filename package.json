@@ -1,10 +1,8 @@
 {
   "name": "signozhq",
   "private": true,
-  "version": "0.0.1",
-  "workspaces": [
-    "packages/*"
-  ],
+  "version": "0.0.7",
+  "workspaces": ["packages/*"],
   "publishConfig": {
     "access": "public"
   },
