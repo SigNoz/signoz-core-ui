@@ -44,6 +44,7 @@ export const Color = {
   "BG_VANILLA_200": "#F5F5F5",
   "BG_VANILLA_300": "#E9E9E9",
   "BG_VANILLA_400": "#C0C1C3",
+  "BG_SLATE_50": "#62687C",
   "BG_SLATE_200": "#2C3140",
   "BG_SLATE_300": "#242834",
   "BG_SLATE_400": "#1D212D",
